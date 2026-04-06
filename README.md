@@ -31,34 +31,39 @@ uidai_hackathon_2026/
 └── README.md
 
 
-🛠️ Technical Stack
-Language: Python 3.x
+---
 
-Data Handling: Pandas, NumPy
+## 🛠️ Technical Stack
+- **Language:** Python 3.x  
+- **Data Processing:** Pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn  
+- **Dashboarding:** Tableau Public (Phase 6)  
+- **Version Control:** Git & GitHub  
 
-Visualization: Seaborn, Matplotlib
+---
 
-Dashboarding: Tableau Public (Phase 6)
+## 📈 Key Findings
 
-Version Control: Git & GitHub
+### 1. Infrastructure Gap
+- States like **Uttar Pradesh** show a strong biometric lag  
+- Demand significantly exceeds available scanning infrastructure  
 
-📈 Major Discoveries
-The Infrastructure Gap: Uttar Pradesh exhibits a severe "Biometric Lag" where demographic demand outpaces physical scanning capacity.
+### 2. Seasonal Demand Surge
+- A **15–20% spike** in Aadhaar activity is observed between **May–July**  
+- Likely linked to the academic admission cycle  
 
-Seasonal Shocks: A predictable 15-20% surge in activity occurs from May to July, correlated with the Indian academic calendar.
+### 3. Efficiency Bottlenecks
+- Certain pincodes in **Telangana** and **Tamil Nadu** show efficiency as low as **~1.7%**  
+- Indicates potential:
+  - Hardware failures  
+  - Operator shortages  
+  - Process inefficiencies  
 
-Efficiency Bottlenecks: Isolated Pincodes in Telangana and Tamil Nadu with efficiency ratios as low as 1.7%, indicating critical hardware failure or understaffing.
+---
 
-⚙️ How to Run
-Clone the repository:
+## ⚙️ How to Run
+
+1. Clone the repository:
+```bash
 git clone https://github.com/rnrahate_007/uidai_hackathon_2026.git
-
-Place raw CSVs in data/raw/.
-
-Run the notebooks in sequential order (00 through 04).
-
-Refer to reports/findings.md for the full analytical report.
-
-Developed by: rnrahate_007
-
-Context: UIDAI National Hackathon 2026
+cd uidai_hackathon_2026

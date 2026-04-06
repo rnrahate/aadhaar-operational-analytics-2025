@@ -1,0 +1,13 @@
+# Ignore data files (too large for GitHub)
+data/raw/
+data/processed/
+
+# Ignore Python environment/cache
+__pycache__/
+.ipynb_checkpoints/
+venv/
+.env
+
+# Keep the report figures
+!reports/figures/*.png
+!reports/figures/*.jpg
